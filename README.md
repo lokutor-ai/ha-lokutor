@@ -9,15 +9,14 @@ It talks to Lokutor's OpenAI-compatible audio API (`https://api.lokutor.com/v1`)
 
 ## Install
 
-### HACS (custom repository)
+### HACS
 
-1. In HACS, open the menu (top right) and choose **Custom repositories**.
-2. Add `https://github.com/lokutor-ai/ha-lokutor` with category **Integration**.
-3. Install **Lokutor** and restart Home Assistant.
+1. In HACS, search for **Lokutor** and open it.
+2. Choose **Download**, then restart Home Assistant.
 
-### Manual
+### Other ways
 
-Copy `custom_components/lokutor` into your `config/custom_components` folder and restart.
+If Lokutor does not show up in HACS search yet, add `https://github.com/lokutor-ai/ha-lokutor` as a custom repository (HACS menu > **Custom repositories**, category **Integration**), or copy `custom_components/lokutor` into your `config/custom_components` folder and restart.
 
 ## Configure
 

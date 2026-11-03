@@ -3,13 +3,17 @@
     "step": {
       "user": {
         "title": "Connect Lokutor",
-        "description": "Enter your Lokutor API key. Create one at https://app.lokutor.com.",
-        "data": { "api_key": "API key" }
+        "description": "Enter your Lokutor API key. Create one in the dashboard at {dashboard_url}.",
+        "data": {
+          "api_key": "API key"
+        }
       },
       "reauth_confirm": {
         "title": "Reauthenticate Lokutor",
         "description": "The API key was rejected. Enter a new one.",
-        "data": { "api_key": "API key" }
+        "data": {
+          "api_key": "API key"
+        }
       }
     },
     "error": {

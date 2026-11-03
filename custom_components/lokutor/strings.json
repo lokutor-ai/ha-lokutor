@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Lokutor",
+        "description": "Enter your Lokutor API key. Create one at https://app.lokutor.com.",
+        "data": { "api_key": "API key" }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate Lokutor",
+        "description": "The API key was rejected. Enter a new one.",
+        "data": { "api_key": "API key" }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot reach the Lokutor API.",
+      "invalid_auth": "The API key was rejected.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This API key is already configured.",
+      "reauth_successful": "The API key was updated."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Lokutor options",
+        "description": "Defaults used by text-to-speech. Assist and automations can still choose a voice, a language or a speed per request.",
+        "data": {
+          "voice": "Voice",
+          "language": "Language",
+          "speed": "Speed"
+        },
+        "data_description": {
+          "voice": "Ten voice slots; each speaks every supported language with a native speaker.",
+          "language": "Default language for speech when none is requested.",
+          "speed": "0.5 to 2.0, 1.0 is normal."
+        }
+      }
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "en": "English",
+        "es": "Spanish",
+        "ca": "Catalan",
+        "gl": "Galician",
+        "eu": "Basque",
+        "pt": "Portuguese",
+        "fr": "French",
+        "it": "Italian",
+        "de": "German"
+      }
+    }
+  }
+}
